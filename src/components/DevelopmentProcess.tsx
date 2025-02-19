@@ -22,7 +22,7 @@ const DevelopmentProcess = () => {
       <h3>📢 AdMob 설정 과정</h3>
       <ol>
         <li>Google AdMob에서 새로운 앱을 등록했습니다.</li>
-        <li>광고 유형에 따라 **배너 광고 / 전면 광고** 등의 광고 단위를 생성했습니다.</li>
+        <li>광고 유형에 따라 배너 광고 / 전면 광고 등의 광고 단위를 생성했습니다.</li>
         <li>AdMob에서 제공하는 `App ID`와 `Ad Unit ID`를 프로젝트에 설정했습니다.</li>
         <li>React Native에서 `react-native-google-mobile-ads` 라이브러리를 사용하여 광고를 표시했습니다.</li>
         <li>배포 전에는 테스트 광고 ID를 사용하여 테스트를 진행하고, 실제 배포 시에는 실제 광고 ID로 변경했습니다.</li>
