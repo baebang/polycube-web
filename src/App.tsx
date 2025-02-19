@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Requirements from './components/Requirements';
+import DevelopmentProcess from './components/DevelopmentProcess';
+import './styles.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="container">
+      <header>
+        <h1>📄 Test React Native App 문서</h1>
       </header>
+      <main>
+        <Requirements />
+        <DevelopmentProcess />
+      </main>
+      <footer>
+        <p>© 2024 Test React Native App</p>
+      </footer>
     </div>
   );
 }
