@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>📄 Test React Native App 문서</h1>
+        <h1>📄 폴리큐브 코딩 테스트 - 지원자 김재정</h1>
       </header>
       <main>
         <Requirements />
