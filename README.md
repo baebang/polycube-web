@@ -7,7 +7,8 @@
 
 ## 🛠️ 기술 스택
 - **React (CRA - Create React App)**  
-- **Vercel (배포)**  
+- **Vercel (배포)**
+🚀 [배포 URL](https://polycube-web.vercel.app/)
 
 ## 📦 설치 및 실행 방법
 ### 1️⃣ 프로젝트 클론
@@ -19,13 +20,11 @@ cd polycube-web
 ### 2️⃣ 패키지 설치
 ```sh
 npm install
+```
 
 3️⃣ 개발 서버 실행
 ```sh
 npm start
 ```
 
-### 🚀 배포 URL
-```sh
-https://polycube-web.vercel.app/
-```
+
