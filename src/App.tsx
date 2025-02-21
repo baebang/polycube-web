@@ -33,7 +33,7 @@ function App() {
           width: '100%', /* 부모 컨테이너의 너비에 맞추기 */
           textAlign: 'center', /* 텍스트가 가운데 정렬되도록 */
           display: 'block'
-        }}>📄 광고ID - {adId ? adId : '로딩 중...'}</h1>
+        }}>📄 광고ID - {adId ? adId : '읽는 중...'}</h1>
       </header>
       <main>
         <Requirements />
