@@ -11,6 +11,7 @@ function App() {
       // 받은 메시지가 객체일 경우, JSON.stringify()로 문자열로 변환하여 저장
  
       setAdId(typeof event.data === 'object' ? JSON.stringify(event.data) : event.data);
+  
       
     };
 
@@ -24,6 +25,7 @@ function App() {
     };
   }, []);
 
+
   return (
     <div className="container">
       <header>
@@ -33,7 +35,7 @@ function App() {
           width: '100%', /* 부모 컨테이너의 너비에 맞추기 */
           textAlign: 'center', /* 텍스트가 가운데 정렬되도록 */
           display: 'block'
-        }}>📄 광고ID - {adId ? adId : '읽는 중...'}</h1>
+        }}>📄 광고ID - {adId}</h1>
       </header>
       <main>
         <Requirements />
